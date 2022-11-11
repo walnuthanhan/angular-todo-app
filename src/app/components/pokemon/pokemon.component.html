@@ -1,0 +1,7 @@
+<h1>{{title}}</h1>
+<button class="generateRandom" (click)="generateRandomPokemon()">Generate Random Pokemon!</button>
+<div class="pokemons">
+    <div class="pokemon" *ngFor="let pokemon of pokemon; let i = index;">
+        <div class="imageURL, center"><img src="{{pokemon.imageURL}}"/></div>
+    </div>
+</div>

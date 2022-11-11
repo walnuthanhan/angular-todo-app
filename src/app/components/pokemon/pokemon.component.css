@@ -1,0 +1,25 @@
+.generateRandom {
+	display: block;
+	width: 100%;
+	max-width: 200px;
+	appearance: none;
+	border: none;
+	outline: none;
+	background: none;
+
+	background-color: #FE4880;
+	color: #FFF;
+	margin: 15px auto;
+
+	padding: 10px 15px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.center {
+	text-align: center;
+}
+
+.imageURL img {
+    width: 50px;
+}
